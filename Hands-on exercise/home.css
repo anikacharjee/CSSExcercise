@@ -1,0 +1,13 @@
+#change{
+	border: 1px solid blue; 
+	margin: 50px;
+}
+
+.changes{
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid pink;
+	margin: 50px;
+	padding: 30px;
+}

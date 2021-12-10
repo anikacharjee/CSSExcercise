@@ -1,0 +1,33 @@
+.div_config{
+  height: 300px;
+  width: 300px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  margin-left: 80px;
+  border-radius: 8px;
+}
+
+.img_size {
+	height: 300px;      width: 300px;
+}
+
+#d1, #d2, #d3 {    /* Grouping selector */
+	float: left;
+}
+
+#third {
+	clear: both;
+}
+
+#me {
+	height: 100px;
+	width: 100px;
+}
+
+#me:hover {
+	height: 150px;
+	width: 150px;
+	border: 1px solid red;
+	border-radius: 8px;
+}

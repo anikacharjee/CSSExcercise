@@ -1,0 +1,27 @@
+table {
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	height: 500px;
+	width: 500px;
+}
+
+#t1 {
+	border: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+#p1 { 
+	font-weight: bold;
+	text-align: center;
+}
+
+#ta {
+	text-align: center;
+}
+
+.ChangeColor {
+	color: red;
+}
+

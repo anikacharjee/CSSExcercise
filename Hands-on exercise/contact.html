@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Contact Page</title>
+     <link rel="stylesheet" href="landing_page.css">
+	 <link rel="stylesheet" href="contact.css">
+	 <script src="contact.js"></script>
+   </head>
+<body>
+
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="upcoming.html">Upcoming</a></li>
+  <li><a href="#gallery">Events Gallery</a></li>
+  <li><a href="#webinar_recordings">Webinar Recordings</a></li>
+  <li><a href="#testimonials">Testimonials</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+  <li><a href="#blog">Blog</a></li>
+  <li><a href="#quick_updates">Quick Updates</a></li>
+</ul>
+
+<br/> <br/> <br/>
+<table>
+  <tr id="ta"> 
+    <td> 
+		<p>
+			A Leading Higher Education Platform for Students & Early Career Professionals — 
+			Driven by Top Industry Experts and Enabled by Learning Paths,
+			 1:1 Coaching and Access to Various Opportunities.
+		</p>
+		<p> A workshop has been organised by BoardInfinity </p>
+			 <p> Day I Topic - "Express & MongoDB Setup and User API Routes" </p>
+			 <p> Day II Topic - "Profile API Routes & Post API Routes" </p>
+			 <p> Day III Topic - "Adding ReactJS to the app" </p>
+	</td>
+  </tr>
+</table>
+<table>
+  <tr>
+     <td>
+	 <form action="/display.php" method="POST">
+	<br><br><br>
+	<table id="t1">
+	<caption> <h2> Form Table </h2> </caption>
+	
+	<tr>
+	<th> <label for="name"> Name </label> </th>
+	<td> <input type="text" name="name" id="name" required> </td>
+	</tr>
+	
+	<tr>
+	<th> <label for="mob"> Mobile No. </label> </th>
+	<td> <input type="number" name="mno" id="mob" required> </td>
+	</tr>
+	
+	<tr>
+	<th> <label for="email"> Email ID </label> </th>
+	<td> <input type="email" name="ename" id="email" required> </td>
+	</tr>
+	
+	<tr>
+	<th> <label for="add"> Address  </label> </th>
+	<td> <textarea style="resize:none;" id="add"> </textarea> </td>
+	</tr>
+	
+	<tr>
+	<th> <label for="country"> Country </label> </th>
+	<td> <select id="country" required>
+	  <option> </option>
+	  <option value="India">India</option>
+	  <option value="Afghanistan">Afghanistan</option>
+	  <option value="Pakistan">Pakistan</option>
+	  <option value="USA">USA</option>
+	  <option value="UK">UK</option>
+	  <option value="Russia">Russia</option>
+	</select></td>
+	</tr>
+	
+	<tr>
+	<th colspan="2">
+	   All Data Entered are correct?
+	<input type="checkbox" required> Yes </th>
+	</tr>
+	
+	<tr>
+	<th colspan="2"> <input type="submit" value="Submit"> 
+	<input type="reset" value="Reset">
+	</th>
+	</tr>
+	
+	</table>     </form>
+	 
+	 </td>
+     
+     <td>
+       <p id="p1"> CONCERNED PERSON </p>
+       <address>This is the office address </address>
+       <p class="ChangeColor"> Email:
+       BI@boardinfinity.com </p>
+	   <span class="ChangeColor"> Phone: </span>
+       <button onclick="CallContact();"> Want to know it ...!!! </button> 
+     </td>	 
+  </tr>
+
+
+</table>
+
+</body>
+</html>
